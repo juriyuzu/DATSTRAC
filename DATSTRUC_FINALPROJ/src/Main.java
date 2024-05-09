@@ -2,17 +2,16 @@ import javax.swing.*;
 
 public class Main extends JFrame {
 
-    Main() {f
+    Main() {
         setUndecorated(true);
-        setExtendedState(MAXIMIZED_BOTH);ff
-        setDefaultCloseOperation(WindowConstants.DIasdasdaSPOSE_ON_CLOSE);
-        setVisible(true);f
-        new Panel(this);ff
+        setExtendedState(MAXIMIZED_BOTH);
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        setVisible(true);
+        new Panel(this);
     }
-sdfsdfsdf
-    public static void main(String[] args) {sd
+
+    public static void main(String[] args) {
         System.out.println("Hello nigga");
-        JOptionPane.showInputDialog("No Bitches?");fff
         new Main();
-    }sdfdsfdsf
+    }
 }
